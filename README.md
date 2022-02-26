@@ -11,3 +11,5 @@ WORKING ON RENET50 V2-------IN PROCESS
 
 
 # DEPLOYED IN DJANGO FRAMEWORK
+
+![ok1.jpg](https://github.com/manojjayakar/CASTING-PRODUCT-SURAFCE-DETECT-USING-DL/blob/master/ok1.jpeg)
