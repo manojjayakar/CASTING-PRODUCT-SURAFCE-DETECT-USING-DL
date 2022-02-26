@@ -1,0 +1,73 @@
+
+<!DOCTYPE html>
+<html>
+<style>
+  label
+{
+font-size: 20px;
+color:red;
+font-family:  Algerian;
+}
+body
+  {
+    background: url(../static/image/8.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    min-height: 100vh;
+}
+  button
+{
+font-size: 20px;
+font-family:  wide latin;
+color:black;
+background-color: green;
+  box-shadow: 5px 5px blue, 10px 10px red, 15px 15px green;
+}
+#ss
+{
+font-size: 20px;
+color:#20fc03;
+background-color: black;
+font-family:  Times new roman;
+}
+
+h2
+{
+font-size: 20px;
+color:black;
+background-color: white;
+font-family:  Times new roman;
+}
+a
+{
+font-size: 20px;
+color:#FA2204 ;
+font-family:  Times new roman;
+}
+.alerts-border {
+    border: 4px #ff0000 dashed;
+
+    animation: blink 0.2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes blink { 50% { border-color:yellow ; }
+}
+</style>
+<body>
+{% load static %}
+<center>
+    <img src="{{emp.UPLOAD_DIGIT_IMAGE.url}}" alt="Smiley face" width="250" height="250">
+    <br>
+    <a href="{% url 'digit' %}">Result</a>&#160;&#160;&#160;
+
+    <a href="{% url 'home' %}">Go Back!!!</a>
+
+</center>
+</body>
+
+</html>
